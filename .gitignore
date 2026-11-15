@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.DS_Store
+.claude/settings.local.json
+
+# モデルの生の応答は公開しない（採点結果は results/graded.jsonl に残る）
+results/raw/
+# 実行ログは公開しない
+results/*.log
