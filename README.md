@@ -41,6 +41,8 @@ Gemini 4系（Hydrogen、Argon、Carbon）と、比較用の3.8 Flash、3.5 Flas
 
 バグ修正の題材には、モデルに渡す仕様書とコード（`src/`）、採点用の隠しテスト（`hidden_tests/`）、すべてのバグを直した参照実装（`reference/`）が入っています。
 
+題材に登場する人名、社名、案件、金額はすべて架空のもので、実在の人物や企業とは関係ありません。
+
 ## ディレクトリ
 
 ```text
@@ -73,7 +75,7 @@ uv run python grade.py       # 採点して集計表を出す
 
 ## 関連記事
 
-- Gemini 4のHydrogen、Argon、Carbonを整理して、APIで動かしてみた（DevelopersIO）
+- [Gemini 4のHydrogen、Argon、Carbonを整理して、APIで動かしてみた](https://dev.classmethod.jp/articles/gemini-4-hydrogen-argon-carbon/)
 
 ## ライセンス
 
